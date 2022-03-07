@@ -29,6 +29,8 @@ class Ejercicio extends React.Component {
   render() {
     return (
       <div className="main-site">
+        <h1>API JOCOSA</h1>
+        <h5>SPOILER: No me sale</h5>
         {this.state.joke.map((item) => {
           return (
             <tr key={uuid()}>
@@ -63,7 +65,7 @@ class Ejercicio extends React.Component {
               })}
             </select>
             <br />
-            <strong>SPOILER: No me sale</strong>
+            <strong>SPOILER: Tampoco me sale</strong>
           </Form.Group>
 
           <Button variant="primary" type="submit">
